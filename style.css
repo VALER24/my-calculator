@@ -1,0 +1,90 @@
+.logo {
+  width: 10%
+}
+
+img {
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+}
+
+#calculator {
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  margin:auto;
+  background-color: #e0dddd;
+  border: solid 5px #000;
+  background-image: url(logo.png);
+}
+
+#screen {
+  background-color: #9c9897;
+  height: 5rem;
+  width: 90%;
+  margin: 10px auto;
+  font-size: 3rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#numbers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/*This is all the buttons.*/
+.button {
+    background-color: #f0e518;
+    width: 4rem;
+    height: 4rem;
+    margin: .4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: bold;
+    box-shadow: 3px 3px #888888;
+}
+
+/*takes the shadow away when click on a button so that it looks like it is pushed*/
+.button:active {
+  box-shadow: 0px 0px;
+}
+
+.operator {
+  background-color: #143ccc;
+    margin-bottom: .25rem;
+    height:2rem;
+    width:3rem;
+  }
+
+#buttons {
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+}
+
+#operators {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+#clear,
+#equal {
+  background-color: blue  display: flex;
+    flex-direction: column;
+    justify-content: space-between;  display: flex;
+      flex-direction: column;
+      justify-content: space-between;  display: flex;
+        flex-direction: column;
+        justify-content: space-between;  display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+}
